@@ -1,0 +1,3143 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics"
+    },
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "version" : "1.0",
+    "author" : [ "Joan Navarro Palatsi" ],
+    "description" : {
+      "en" : "The ontology models the European catalog of high-risk medical devices and in vitro diagnostic devices in accordance with the MDR (EU 2017/745) and IVDR (EU 2017/746) regulations. It represents the concepts that underpin the domain: devices, risk classes, manufacturers, identified risks (using IMDRF nomenclature), reported incidents, and field safety corrective actions (FSCA). It draws on data from EUDAMED, and its design aims to facilitate semantic interoperability among manufacturers, regulatory authorities, hospitals, and patients."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Joan Navarro Palatsi",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/personGender",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "personGender"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MalfunctionRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MalfunctionRisk",
+      "en" : "Malfunction risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk that the device fails to perform as intended, potentially leading to delayed treatment or harm."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ContaminationRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContaminationRisk",
+      "en" : "Contamination risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk of microbial or chemical contamination of the device, potentially causing infection or adverse health effects."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "19",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/SeriousIncident",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "en" : "Serious incident"
+    },
+    "comment" : {
+      "en" : "An incident that resulted in death, serious deterioration in health, or a life‑threatening situation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/NearMissIncident",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NearMissIncident",
+      "en" : "Near-Miss incident"
+    },
+    "comment" : {
+      "en" : "An event that could have led to harm but did not, often due to timely intervention or chance."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/InterferenceRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterferenceRisk",
+      "en" : "Interference risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk that the device causes or is affected by electromagnetic or other interference, compromising its performance."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "43",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/InVitroDiagnostic",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDiagnostic",
+      "en" : "In-Vitro diagnostic medical device"
+    },
+    "comment" : {
+      "en" : "A device used to examine specimens derived from the human body to provide information for diagnostic or monitoring purposes (IVDR 2017/746)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MedicalRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedicalRisk",
+      "en" : "Medical risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-010",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-010",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-010"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-020",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-020",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-020"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-009",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-009",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-009"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-008",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-008",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-008"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-019",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-019",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-019"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-003",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-003",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-014",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-014",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-014"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-013",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-013",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-013"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-002",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-002",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-001",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-001",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-001"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-012",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-012",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-012"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-011",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-011",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-011"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-018",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-018",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-018"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-007",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-007",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-007"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-006",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-006",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-017",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-017",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-017"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-005",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-005",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-005"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-016",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-016",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-016"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-015",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-015",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-015"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-004",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RSK-004",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RSK-004"
+      }
+    } ],
+    "subClasses" : [ "46", "19", "47", "48", "49", "43", "17", "50", "51", "52" ],
+    "comment" : {
+      "en" : "A potential hazard associated with a medical device, classified according to the IMDRF nomenclature."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/SoftwareRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareRisk",
+      "en" : "Software risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk associated with software bugs, inadequate functionality, or cybersecurity flaws in the device's software."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "50",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ClassI",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassI",
+      "en" : "Class I medical device"
+    },
+    "comment" : {
+      "en" : "A low‑risk medical device under MDR 2017/745, typically subject to self‑declaration of conformity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MaterialRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialRisk",
+      "en" : "Material risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk related to the materials used in the device, such as toxicity or biocompatibility issues."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "51",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/RadiationRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RadiationRisk",
+      "en" : "Radiation risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk of excessive or unintended radiation exposure from the device, leading to tissue damage or other health effects."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "49",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/InfectionRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InfectionRisk",
+      "en" : "Infection risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk that the device causes or contributes to infection, particularly in implantable or reusable devices."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "52",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ImplantableDevice",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Implant_(medicine)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "en" : "Implantable medical device"
+    },
+    "comment" : {
+      "en" : "A device intended to be placed into the human body, either partially or wholly, and remains after the procedure."
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/UserNotice",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "en" : "User notice"
+    },
+    "intersection" : [ "21" ],
+    "comment" : {
+      "en" : "A communication to users (e.g., healthcare providers, patients) providing instructions or warnings regarding device use."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "67",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ClassIII",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "en" : "Class III medical device"
+    },
+    "comment" : {
+      "en" : "A high‑risk medical device under MDR 2017/745, requiring the highest level of scrutiny and clinical evaluation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/CorrectiveAction",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Corrective_and_preventive_action",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "en" : "Corrective action"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-008",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-008"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-007",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-007"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-009",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-009"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-011",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-011"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-010",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-010"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-002",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-013",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-013"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-012",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-012"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-001",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-001"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-015",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-015"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-004",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-004"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-014",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-014"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-003",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-006",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/FSCA-005",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "labels" : {
+        "IRI-based" : "FSCA-005"
+      }
+    } ],
+    "subClasses" : [ "69", "67", "60", "57" ],
+    "comment" : {
+      "en" : "A safety measure taken to address a device-related incident, including field safety corrective actions (FSCA) and recalls."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DiagnosticRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DiagnosticRisk",
+      "en" : "Diagnostic risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk associated with incorrect or delayed diagnosis due to device failure or misinterpretation of results."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "47",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/NonActiveDevice",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonActiveDevice",
+      "en" : "Non-Active medial device"
+    },
+    "comment" : {
+      "en" : "A device that does not rely on electrical or mechanical energy to function, such as bandages or surgical instruments."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ActiveDevice",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "en" : "Active medical device"
+    },
+    "comment" : {
+      "en" : "A device that depends on a source of energy (e.g., electrical, mechanical) to perform its function, excluding energy generated by the human body."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://schema.org/Organization",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-010",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-010",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-010"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-009",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-009",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-009"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-008",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-008",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-008"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-007",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-007",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-007"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-006",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-006",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-005",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-005",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-005"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-015",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-015",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-015"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-004",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-004",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-004"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-003",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-003",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-014",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-014",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-014"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-002",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-002",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-013",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-013",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-013"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-001",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-001",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-001"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-012",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-012",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-012"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-011",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/MAN-011",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MAN-011"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://schema.org/MedicalDevice",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedicalDevice"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-008",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-008",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-008"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-007",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-007",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-007"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-006",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-006",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-005",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-005",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-005"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-009",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-009",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-009"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-011",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-011",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-011"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-010",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-010",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-010"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-015",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-015",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-015"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-014",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-014",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-014"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-013",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-013",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-013"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-012",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-012",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-012"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-019",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-019",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-019"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-018",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-018",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-018"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-017",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-017",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-017"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-016",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-016",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-016"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-022",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-022",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-022"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-021",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-021",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-021"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-020",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-020",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-020"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-004",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-004",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-004"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-003",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-003",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-025",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-025",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-025"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-002",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-002",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-024",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-024",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-024"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-023",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-023",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-023"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-001",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/DEV-001",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001"
+      }
+    } ],
+    "subClasses" : [ "45", "62", "37", "42", "39", "93", "94", "75" ],
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/Recall",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recall",
+      "en" : "Recall"
+    },
+    "intersection" : [ "21" ],
+    "comment" : {
+      "en" : "Removal or correction of a device that is in violation of regulations or poses a safety risk, conducted by the manufacturer."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "60",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/CybersecurityRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CybersecurityRisk",
+      "en" : "Cybersecurity risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk arising from vulnerabilities in the device's software or network connectivity that could lead to unauthorized access or malfunction."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "48",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/Incident",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Incident_report",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Incident",
+      "en" : "Incident"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-017",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-017",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "9/2/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-017"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-006",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-006",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "4/2/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-006"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-007",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-007",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "4/14/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-007"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-018",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-018",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "9/15/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-018"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-004",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-004",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "3/5/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-004"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-015",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-015",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "8/5/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-015"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-016",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-016",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "8/18/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-016"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-005",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-005",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "3/18/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-005"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-008",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-008",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "4/28/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-008"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-019",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-019",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "10/1/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-019"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-009",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-009",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "5/6/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-009"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-020",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-020",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "10/14/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-020"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-010",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-010",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "5/20/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-010"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-002",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-002",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "2/3/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-013",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-013",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "7/1/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-013"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-014",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-014",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "7/18/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-014"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-003",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-003",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "2/20/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-011",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-011",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "6/3/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-011"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-012",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-012",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "6/15/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-012"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-001",
+      "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+      "annotations" : {
+        "identifier" : [ {
+          "identifier" : "identifier",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/INC-001",
+          "type" : "iri"
+        } ],
+        "dateCreated" : [ {
+          "identifier" : "dateCreated",
+          "language" : "undefined",
+          "value" : "1/15/24",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "INC-001"
+      }
+    } ],
+    "subClasses" : [ "40", "25" ],
+    "comment" : {
+      "en" : "An event that has resulted or could result in harm to a patient, user, or other person, associated with a medical device."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/InSituCorrection",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InSituCorrection",
+      "en" : "In-Situ correction"
+    },
+    "intersection" : [ "21" ],
+    "comment" : {
+      "en" : "A corrective action performed directly on the device at the point of use, such as a software update or hardware adjustment."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "57",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/SafetyAlert",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "en" : "Safety alert"
+    },
+    "intersection" : [ "21" ],
+    "comment" : {
+      "en" : "An urgent notification issued to inform users about a serious safety issue and to recommend specific actions."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "69",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/InjuryRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InjuryRisk",
+      "en" : "Injury risk"
+    },
+    "intersection" : [ "18" ],
+    "comment" : {
+      "en" : "Risk of physical harm or injury to the patient or user due to device failure or misuse."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "46",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ClassIIb",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIb",
+      "en" : "Class IIb medical device"
+    },
+    "comment" : {
+      "en" : "A medium‑high risk medical device under MDR 2017/745, subject to strict conformity assessment procedures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ClassIIa",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIa",
+      "en" : "Class IIa medical device"
+    },
+    "comment" : {
+      "en" : "A medium‑risk medical device under MDR 2017/745, with moderate conformity assessment requirements."
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "9" ]
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/manufactures",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "manufactures",
+      "en" : "manufactures"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Relates an organization to the medical devices it produces. This is the inverse of eudamed:hasManufacturer."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/outcome",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "outcome",
+      "en" : "Outcome"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "A textual description of the consequences of the incident, such as patient harm or device malfunction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/risk_class",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "risk_class",
+      "en" : "Risk class"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The device risk class according to the regulatory framework (e.g., Class I, IIa, IIb, III for MDR; Class A, B, C, D for IVDR)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/status",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "status",
+      "en" : "Status"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The current status of a corrective action (e.g., Open, Closed)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/isAffectedBy",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isAffectedBy",
+      "en" : "isAffectedBy"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates that a device is impacted by a specific incident. This is the inverse of eudamed:affectsDevice."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/probability",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "probability",
+      "en" : "Probability"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The estimated likelihood of the risk occurring (e.g., Low, Medium, High)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "34"
+  }, {
+    "range" : "9",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "9",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "9",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/regulatory_framework",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "regulatory_framework",
+      "en" : "Regulatory framework"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The applicable regulation under which the device is placed on the market, such as MDR or IVDR."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/reportedBy",
+    "inverse" : "55",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "reportedBy",
+      "en" : "reportedBy"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Identifies the organization that submitted an incident report."
+    },
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "53"
+  }, {
+    "range" : "21",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/eudamed_fsca_ref",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "eudamed_fsca_ref",
+      "en" : "Eudamed FSCA reference"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The unique reference number assigned to a Field Safety Corrective Action (FSCA) in the EUDAMED database."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "58"
+  }, {
+    "range" : "21",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "9",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "9",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "18",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "18",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "21",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "21",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/udi_di",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "udi_di",
+      "en" : "Unique Device Identifier - Device Identifier"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The Unique Device Identifier - Device Identifier (UDI-DI) which serves as the primary identifier for a medical device model."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/patient_sex",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "patient_sex",
+      "en" : "Patient sex"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The sex of the patient involved in the incident."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "72"
+  }, {
+    "range" : "18",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/imdrf_code",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "imdrf_code",
+      "en" : "IMDRF Code"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The code from the International Medical Device Regulators Forum (IMDRF) that classifies the type of medical risk."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/risk_category",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "risk_category",
+      "en" : "Risk category"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The category of risk, such as Device Failure, Patient Harm, or Diagnostic Error."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/is_active",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_active",
+      "en" : "Is active"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A boolean flag indicating whether the device is an active medical device (dependent on a source of energy)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "78"
+  }, {
+    "range" : "18",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/country_reported",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "country_reported",
+      "en" : "Country reported"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The country from which an incident was reported, derived from the reporting organization's address."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "80"
+  }, {
+    "range" : "18",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "18",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "18",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/device_type",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "device_type",
+      "en" : "Device type"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A general classification of the medical device, e.g., Implantable Active Device, In-Vitro Diagnostic."
+    },
+    "attributes" : [ "datatype", "functional", "external" ],
+    "id" : "85"
+  }, {
+    "range" : "18",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "18",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://schema.org/addressCountry",
+    "baseIri" : "https://schema.org",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "addressCountry"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/affectsDevice",
+    "inverse" : "32",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "affectsDevice",
+      "en" : "affectsDevice"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Indicates the medical device that is the subject of an incident report."
+    },
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/addressesIncident",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "addressesIncident",
+      "en" : "addressesIncident"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Links a corrective action to the incident that it addresses."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/scope",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "scope",
+      "en" : "Scope"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A textual description of the scope of a corrective action, detailing which devices or batches are included."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/corrective_action_taken",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "corrective_action_taken",
+      "en" : "Corrective action taken"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "A boolean flag indicating whether a corrective action has been taken in response to an incident."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/event_date",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "event_date",
+      "en" : "Event date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The date on which the incident occurred."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/authorization_number",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "authorization_number",
+      "en" : "Authorization number"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "The official authorization number or registration number assigned to an organization by a competent authority."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/is_implantable",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "is_implantable",
+      "en" : "Is implantable"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A boolean flag indicating whether the device is intended to be partially or wholly introduced into the human body."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "100"
+  }, {
+    "range" : "5",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/devices_affected",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "devices_affected",
+      "en" : "Devices affected"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The number of devices impacted by a corrective action."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "102"
+  }, {
+    "range" : "9",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "9",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "5",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "9",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/intended_purpose",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "intended_purpose",
+      "en" : "Intended purpose"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The intended use or clinical function of the medical device as defined by the manufacturer."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/patient_age",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "patient_age",
+      "en" : "Patient age"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The age of the patient involved in the incident."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/countries_affected",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "countries_affected",
+      "en" : "Countries affected"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The countries where a corrective action is applicable."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/is_reusable",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "is_reusable",
+      "en" : "Is reusable"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A boolean flag indicating whether the device can be reused after appropriate processing."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/risk_type",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "risk_type",
+      "en" : "Risk type"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "A more specific classification of the risk, e.g., Malfunction Risk, Infection Risk, or Diagnostic Risk."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/severity",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "severity",
+      "en" : "Severity"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The level of severity of the medical risk (e.g., Critical, Serious, Moderate)."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/detection_date",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "detection_date",
+      "en" : "Detection date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The date on which an incident was detected."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/competent_authority",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "competent_authority",
+      "en" : "Competent authority"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "The name of the national competent authority responsible for the organization."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/is_ivd",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "is_ivd",
+      "en" : "Is IVD device"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "A boolean flag indicating whether the device is an In-Vitro Diagnostic (IVD) medical device."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/eudamed_srn",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "eudamed_srn",
+      "en" : "Eudamed SRN"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "The unique Single Registration Number (SRN) assigned to an economic operator in the EUDAMED system."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/hasManufacturer",
+    "inverse" : "1",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasManufacturer",
+      "en" : "hasManufacturer"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Associates a medical device with the organization that manufactured it."
+    },
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/incident_type",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "incident_type",
+      "en" : "Incident type"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The classification of the incident, e.g., serious incident or near-miss."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/reports",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "reports",
+      "en" : "reports"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Relates an organization to the incident reports it has submitted. This is the inverse of eudamed:reportedBy."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/hasRisk",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasRisk",
+      "en" : "hasRisk"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Links an incident to the medical risk associated with it."
+    },
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/eudamed_incident_ref",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "eudamed_incident_ref",
+      "en" : "Eudamed incident reference"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The unique reference number assigned to an incident report in the EUDAMED database."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/action_type",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "action_type",
+      "en" : "Action type"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The type of corrective action taken, such as a safety alert, recall, or in-situ correction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/affected_device_type",
+    "baseIri" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "affected_device_type",
+      "en" : "Affected device type"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The type of device that is affected by a particular medical risk."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "128"
+  } ]
+}

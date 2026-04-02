@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/1.0.0> a prov:Entity;
+	 dc:title "EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology>;
+.
+:agent0 a prov:Agent; foaf:name "Joan Navarro Palatsi".
