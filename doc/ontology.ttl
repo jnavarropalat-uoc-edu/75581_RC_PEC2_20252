@@ -282,14 +282,6 @@ xsd:date rdf:type rdfs:Datatype .
                                                                                         rdfs:label "Countries affected"@en .
 
 
-###  http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/country_reported
-<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/country_reported> rdf:type owl:DatatypeProperty ;
-                                                                                       rdfs:domain <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/Incident> ;
-                                                                                       rdfs:range xsd:string ;
-                                                                                       rdfs:comment "The country from which an incident was reported, derived from the reporting organization's address."@en ;
-                                                                                       rdfs:label "Country reported"@en .
-
-
 ###  http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/detectionDate
 <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/detectionDate> rdf:type owl:DatatypeProperty ;
                                                                                     rdfs:domain <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/Incident> ;
