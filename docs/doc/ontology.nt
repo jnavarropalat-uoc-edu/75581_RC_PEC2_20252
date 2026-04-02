@@ -3,8 +3,19 @@
 <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/elements/1.1/creator> "Joan Navarro Palatsi" .
 <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/elements/1.1/description> "The ontology models the European catalog of high-risk medical devices and in vitro diagnostic devices in accordance with the MDR (EU 2017/745) and IVDR (EU 2017/746) regulations. It represents the concepts that underpin the domain: devices, risk classes, manufacturers, identified risks (using IMDRF nomenclature), reported incidents, and field safety corrective actions (FSCA). It draws on data from EUDAMED, and its design aims to facilitate semantic interoperability among manufacturers, regulatory authorities, hospitals, and patients."@en .
 <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/elements/1.1/title> "EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics"@en .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/bibliographicCitation> "Navarro Palatsi, J. (2026). EUDAMED-MDR/IVDR Ontology."@en .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/contributor> "Joan Navarro Palatsi" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/created> "2026-03-28" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/issued> "2026-04-02" .
 <http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"@en .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/publisher> "Joan Navarro Palatsi" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/dc/terms/source> "EUDAMED Database" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/ontology/bibo/doi> "75581_20252_PEC2_jnavarropalat_uoc_edu" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/ontology/bibo/status> "Published" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eudamed" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology> <https://schema.org/logo> <https://raw.githubusercontent.com/jnavarropalat-uoc-edu/75581_RC_PEC2_20252/refs/heads/main/logo.png> .
 # 
 # 
 # #################################################################
@@ -23,8 +34,38 @@
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -43,6 +84,9 @@
 # 
 # http://www.w3.org/2004/02/skos/core#exactMatch
 <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/logo
+<https://schema.org/logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 

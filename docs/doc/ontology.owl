@@ -6,9 +6,11 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/"
@@ -18,8 +20,19 @@
         <dc:creator>Joan Navarro Palatsi</dc:creator>
         <dc:description xml:lang="en">The ontology models the European catalog of high-risk medical devices and in vitro diagnostic devices in accordance with the MDR (EU 2017/745) and IVDR (EU 2017/746) regulations. It represents the concepts that underpin the domain: devices, risk classes, manufacturers, identified risks (using IMDRF nomenclature), reported incidents, and field safety corrective actions (FSCA). It draws on data from EUDAMED, and its design aims to facilitate semantic interoperability among manufacturers, regulatory authorities, hospitals, and patients.</dc:description>
         <dc:title xml:lang="en">EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Navarro Palatsi, J. (2026). EUDAMED-MDR/IVDR Ontology.</terms:bibliographicCitation>
+        <terms:contributor>Joan Navarro Palatsi</terms:contributor>
+        <terms:created>2026-03-28</terms:created>
+        <terms:issued>2026-04-02</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <terms:publisher>Joan Navarro Palatsi</terms:publisher>
+        <terms:source>EUDAMED Database</terms:source>
+        <bibo:doi>75581_20252_PEC2_jnavarropalat_uoc_edu</bibo:doi>
+        <bibo:status>Published</bibo:status>
+        <vann:preferredNamespacePrefix>eudamed</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/</vann:preferredNamespaceUri>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <schema:logo rdf:resource="https://raw.githubusercontent.com/jnavarropalat-uoc-edu/75581_RC_PEC2_20252/refs/heads/main/logo.png"/>
     </owl:Ontology>
     
 
@@ -57,10 +70,80 @@
     
 
 
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -103,6 +186,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- https://schema.org/logo -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/logo"/>
     
 
 

@@ -13,16 +13,29 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:schema="https://schema.org/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:eudamed="http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/1.0.0"/>
         <dc:creator>Joan Navarro Palatsi</dc:creator>
         <dc:description xml:lang="en">The ontology models the European catalog of high-risk medical devices and in vitro diagnostic devices in accordance with the MDR (EU 2017/745) and IVDR (EU 2017/746) regulations. It represents the concepts that underpin the domain: devices, risk classes, manufacturers, identified risks (using IMDRF nomenclature), reported incidents, and field safety corrective actions (FSCA). It draws on data from EUDAMED, and its design aims to facilitate semantic interoperability among manufacturers, regulatory authorities, hospitals, and patients.</dc:description>
         <dc:title xml:lang="en">EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics</dc:title>
-        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:publisher>Joan Navarro Palatsi</dcterms:publisher>
+        <dcterms:contributor>Joan Navarro Palatsi</dcterms:contributor>
+        <dcterms:created>2026-03-28</dcterms:created>
+        <dcterms:issued>2026-04-02</dcterms:issued>
+        <bibo:status>Published</bibo:status>
+        <dcterms:bibliographicCitation xml:lang="en">Navarro Palatsi, J. (2026). EUDAMED-MDR/IVDR Ontology.</dcterms:bibliographicCitation>
+        <vann:preferredNamespacePrefix>eudamed</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/</vann:preferredNamespaceUri>
+        <schema:logo rdf:resource="https://raw.githubusercontent.com/jnavarropalat-uoc-edu/75581_RC_PEC2_20252/refs/heads/main/logo.png"/>
+        <dcterms:source>EUDAMED Database</dcterms:source>
+        <bibo:doi>75581_20252_PEC2_jnavarropalat_uoc_edu</bibo:doi>
     </owl:Ontology>
     
 

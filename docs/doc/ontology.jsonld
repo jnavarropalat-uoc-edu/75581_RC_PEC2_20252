@@ -468,7 +468,37 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology",
@@ -484,15 +514,48 @@
     "@language" : "en",
     "@value" : "EUDAMED-MDR/IVDR Ontology for Medical Devices and In-Vitro Diagnostics"
   } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "Navarro Palatsi, J. (2026). EUDAMED-MDR/IVDR Ontology."
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Joan Navarro Palatsi"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2026-03-28"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2026-04-02"
+  } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "Joan Navarro Palatsi"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "EUDAMED Database"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@value" : "75581_20252_PEC2_jnavarropalat_uoc_edu"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@value" : "Published"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "eudamed"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@language" : "en",
     "@value" : "1.0"
+  } ],
+  "https://schema.org/logo" : [ {
+    "@id" : "https://raw.githubusercontent.com/jnavarropalat-uoc-edu/75581_RC_PEC2_20252/refs/heads/main/logo.png"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/joann/ontologies/2026/2/eudamed-ontology/ActiveDevice",
@@ -5642,6 +5705,9 @@
     "@language" : "en",
     "@value" : "identifier"
   } ]
+}, {
+  "@id" : "https://schema.org/logo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://schema.org/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
